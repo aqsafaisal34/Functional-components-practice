@@ -1,6 +1,7 @@
 // Destructuring Method(correct)
 import React from 'react'
 import { useState } from 'react'
+// Hook Usestate with string
 
 export default function USComponent() {
     const [name,setName] = useState("Ali")
